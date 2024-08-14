@@ -1,0 +1,22 @@
+.footer {
+background-color: grey;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+padding: 1rem;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+
+.footer-content a {
+color: black;
+margin: 0 0.3rem;
+
+}
+
+.footer-content a:hover {
+text-decoration: none;
+}

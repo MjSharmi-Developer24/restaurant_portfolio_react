@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-image: url("img34.jpg");
+    position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 18rem;
+    padding: 40px 47px;
+    box-shadow: 10px 10px 18px -8px #aaaaaa,-10px -10px 24px #ffffff;
+    height: 490px;
+    border-radius: 20px;
+    width: 800px;
+    border: 2px solid wheat;
+    
+}
+.container img{
+    height: 100%;
+    border-radius: 20px;
+    width: auto;
+    border: 3px solid wheat ;
+    cursor: pointer;
+
+}
+
+.about_details{
+    margin: 0 45px;
+}
+.about_details span{
+    color: red;
+    font-size: 25px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.about_details h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 1px;
+    
+}
+.about_details p{
+    color: wheat;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.bt10{
+    margin: 15px 0;
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 3px solid red;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color:black;
+    font-size: 23px;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+}
+.bt10:hover{
+    background-color: red;
+    color: white;
+}
+.bt10 a{
+    color: black;
+    
+}
